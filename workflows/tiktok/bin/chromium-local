@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+# Cloud container already provides isolation; its mapped chrome-sandbox is not root-owned.
+exec /usr/bin/chromium --no-sandbox "$@"

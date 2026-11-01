@@ -1,0 +1,46 @@
+{
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "delivery": {
+    "video": "h264",
+    "pixelFormat": "yuv420p",
+    "crf": 15,
+    "audio": "aac",
+    "sampleRate": 48000,
+    "lufs": -14,
+    "truePeakDb": -1
+  },
+  "captions": {
+    "wordsPerPhrase": 4,
+    "maxPhraseChars": 30,
+    "gapSeconds": 0.35,
+    "fontSize": 68,
+    "bottomPx": 410,
+    "leftPx": 100,
+    "rightPx": 180,
+    "activeColor": "#F8E66D",
+    "textColor": "#FFFFFF",
+    "popSeconds": 0.1
+  },
+  "motion": {
+    "zoomMax": 1.035,
+    "zoomPeriodSeconds": 6,
+    "edgeFadeSeconds": 0.12
+  },
+  "editing": {
+    "crossfadeMs": 40,
+    "pauseReviewMs": 350,
+    "targetDurationSeconds": [
+      15,
+      45
+    ],
+    "shotHoldSeconds": [
+      2,
+      5
+    ],
+    "cutSafetyMs": 100
+  }
+}

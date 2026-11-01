@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+source "$(dirname "$0")/../env.sh"
+# Silero is local and ungated; default pyannote VAD may require gated weights.
+exec "$TIKTOK_VENV/bin/whisperx" "$@" --vad_method silero --threads 2
